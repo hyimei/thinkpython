@@ -1,2 +1,2 @@
 # thinkpython
-exercises from thinkpython
+Coding exercises from thinkpython
