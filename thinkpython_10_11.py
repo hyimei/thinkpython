@@ -28,4 +28,13 @@ sorted_list = [ 'a', 'b', 'c', 'd', 'e']
 test(sorted_list, 'b')
 test(sorted_list, 'f')
 test([], 'b')
+test(sorted_list, 'a')
+test(sorted_list, 'A')
 
+'''
+finding b in the sorted list ['a', 'b', 'c', 'd', 'e']: 1
+finding f in the sorted list ['a', 'b', 'c', 'd', 'e']: None
+finding b in the sorted list []: None
+finding a in the sorted list ['a', 'b', 'c', 'd', 'e']: 0
+finding A in the sorted list ['a', 'b', 'c', 'd', 'e']: None
+'''
